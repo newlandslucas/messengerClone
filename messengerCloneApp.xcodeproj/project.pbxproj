@@ -11,6 +11,7 @@
 		9471FBF42AC49FAD00E9A44E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9471FBF32AC49FAD00E9A44E /* ContentView.swift */; };
 		9471FBF62AC49FB200E9A44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9471FBF52AC49FB200E9A44E /* Assets.xcassets */; };
 		9471FBF92AC49FB200E9A44E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9471FBF82AC49FB200E9A44E /* Preview Assets.xcassets */; };
+		9471FC082AC4A13000E9A44E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9471FC072AC4A13000E9A44E /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9471FBF32AC49FAD00E9A44E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9471FBF52AC49FB200E9A44E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9471FBF82AC49FB200E9A44E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9471FC072AC4A13000E9A44E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,11 +53,11 @@
 		9471FBF02AC49FAD00E9A44E /* messengerCloneApp */ = {
 			isa = PBXGroup;
 			children = (
-				9471FC022AC49FF400E9A44E /* New Group3 */,
-				9471FC012AC49FF100E9A44E /* New Group2 */,
-				9471FC002AC49FEF00E9A44E /* New Group1 */,
-				9471FBFF2AC49FEB00E9A44E /* New Group */,
-				9471FBF12AC49FAD00E9A44E /* messengerCloneAppApp.swift */,
+				9471FC032AC4A0C700E9A44E /* Extensions */,
+				9471FC022AC49FF400E9A44E /* App */,
+				9471FC012AC49FF100E9A44E /* Core */,
+				9471FC002AC49FEF00E9A44E /* Model */,
+				9471FBFF2AC49FEB00E9A44E /* Service */,
 				9471FBF32AC49FAD00E9A44E /* ContentView.swift */,
 				9471FBF52AC49FB200E9A44E /* Assets.xcassets */,
 				9471FBF72AC49FB200E9A44E /* Preview Content */,
@@ -71,32 +73,65 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9471FBFF2AC49FEB00E9A44E /* New Group */ = {
+		9471FBFF2AC49FEB00E9A44E /* Service */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = Service;
 			sourceTree = "<group>";
 		};
-		9471FC002AC49FEF00E9A44E /* New Group1 */ = {
+		9471FC002AC49FEF00E9A44E /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group1";
+			path = Model;
 			sourceTree = "<group>";
 		};
-		9471FC012AC49FF100E9A44E /* New Group2 */ = {
+		9471FC012AC49FF100E9A44E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9471FC052AC4A10200E9A44E /* Root */,
+				9471FC042AC4A0F400E9A44E /* Autentication */,
 			);
-			path = "New Group2";
+			path = Core;
 			sourceTree = "<group>";
 		};
-		9471FC022AC49FF400E9A44E /* New Group3 */ = {
+		9471FC022AC49FF400E9A44E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9471FBF12AC49FAD00E9A44E /* messengerCloneAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9471FC032AC4A0C700E9A44E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group3";
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9471FC042AC4A0F400E9A44E /* Autentication */ = {
+			isa = PBXGroup;
+			children = (
+				9471FC062AC4A11C00E9A44E /* View */,
+			);
+			path = Autentication;
+			sourceTree = "<group>";
+		};
+		9471FC052AC4A10200E9A44E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		9471FC062AC4A11C00E9A44E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9471FC072AC4A13000E9A44E /* LoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9471FC082AC4A13000E9A44E /* LoginView.swift in Sources */,
 				9471FBF42AC49FAD00E9A44E /* ContentView.swift in Sources */,
 				9471FBF22AC49FAD00E9A44E /* messengerCloneAppApp.swift in Sources */,
 			);
